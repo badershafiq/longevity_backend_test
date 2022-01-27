@@ -1,6 +1,8 @@
 # marketplace-api-assignment
 Marketplace API assignment for Longevity Scientific Resort
 
+Added a postman collection for API documentation
+
 ## Steps to run
 
 `bash
