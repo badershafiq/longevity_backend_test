@@ -31,7 +31,7 @@ http://127.0.0.1:8000/marketplace/register/ - Registration page for partners
 
 http://127.0.0.1:8000/marketplace/api/recommendation - Third-party Recommendation service
 
-http://127.0.0.1:8000/marketplace/api/recommendation/interna - Internal Recommendation service for users
+http://127.0.0.1:8000/marketplace/api/recommendation/internal - Internal Recommendation service for users
 
 
 
