@@ -5,9 +5,7 @@ Added a postman collection for API documentation in project root
 
 ## Steps to run
 
-`bash
-python3.9 -m venv venv
-`
+`python3.9 -m venv venv`
 
 UNIX bases OS: `source venv/bin/activate`
 
