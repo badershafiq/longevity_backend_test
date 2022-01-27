@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include '_head_imports.html' %}
+        <style>
+            body{
+                background: #56CCF2;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+            .white-panel{
+                background-color: white;
+                box-shadow: 0px 0px 25px #777;
+                border-radius: 10px;
+                border: 1px solid white;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body style='height: 100vh'>
+        <div class='container d-flex flex-column justify-content-center align-items-center h-100'>
+            <div class='row'>
+                <div class='col'>
+                    <div class='text-light mt-5' style="font-size: 2rem; font-weight: 600">Longevity InTime - Health tracking system</div>
+                    <div class='mt-2 text-light' style="font-size: 1.5rem; font-weight: 300">Marketplace</div>
+                    <div class='mt-2 text-light' style="font-size: 1rem; font-weight: 200">
+                        Longevity InTime develops Anti-Aging &amp; Longevity focused marketplace
+                        Users can get as more opinions from as many as they want medical &amp; informational resources
+                        
+                        Based on bio parameters tracked from the body, Longevity InTime marketplace 
+                        lists all options where users can get more insights on their health state &amp;
+                        personal recommendations
+                    </div>
+                    <div class='white-panel mt-5'>
+                        <div class='' style='font-weight: 600; color: #777'>Paid subscription on Longevity InTime recommendations</div>
+                        <div class='' style='font-weight: 300; color: #999'>We get 100% of the subscription to our recommendation service</div>
+                    </div>
+                    <div class='white-panel mt-3'>
+                        <div class='' style='font-weight: 600; color: #777'>Third-party services subscription</div>
+                        <div class='' style='font-weight: 300; color: #999'>In the case of buying recommendations from our partners, we get part of the amount as a commission</div>
+                    </div>
+                </div>
+                <div class='col'>
+                    <div class='d-flex justify-content-center align-items-center'>
+                        <img src="{% static 'images/undraw_mobile_app.svg' %}" style='max-width: 500px'/>
+                    </div>
+                </div>
+            </div>
+            <div class='mt-5 d-flex justify-content-center align-items-center'>
+                <a class='btn btn-light btn-lg' href="{% url 'marketplace_api_auth_handler:register' %}">Join as a partner</a>
+            </div>
+        </div>
+    </body>
+</html>
