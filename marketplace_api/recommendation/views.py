@@ -13,7 +13,7 @@ class RecommendationViewset(viewsets.ViewSet):
     """
     Third-party recommendation service
 
-    POST request object
+    POST request object 
         {
             "param_1": "value_1",
             ...
