@@ -30,5 +30,6 @@ class RecommendationViewset(viewsets.ViewSet):
         """
         Internal recommendation service
         """
-        data = RecommendationEngine.get_recommendation()
+        engine = RecommendationEngine()
+        data = engine.get_recommendation()
         return Response(data, status=status.HTTP_200_OK)
