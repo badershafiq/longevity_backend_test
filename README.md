@@ -1,7 +1,7 @@
 # marketplace-api-assignment
 Marketplace API assignment for Longevity Scientific Resort
 
-Added a postman collection for API documentation
+Added a postman collection for API documentation in project root
 
 ## Steps to run
 
