@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "933c0ca1-a0da-49ab-b70a-5af1c9c086b3",
+		"name": "Marketplace",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Third-party recommendation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 517a1f6903a7ca596958a56e155f81a90fde7855",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"param_1\": \"param_1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/marketplace/api/recommendation/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"marketplace",
+						"api",
+						"recommendation",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Internal recommendation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 517a1f6903a7ca596958a56e155f81a90fde7855",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"param_1\": \"param_1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/marketplace/api/recommendation/internal/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"marketplace",
+						"api",
+						"recommendation",
+						"internal",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
